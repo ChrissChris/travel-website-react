@@ -1,3 +1,5 @@
-import React from "react";
+import React, { useState } from "react";
 
-export const Navbar = () => {};
+export const Navbar = () => {
+  return <div></div>;
+};
