@@ -11,5 +11,5 @@ export const Button = ({ childre, type, onclick, buttonStyle, buttonSize }) => {
 
   const checkButtonSizes = SIZES.includes(buttonSize) ? buttonSize : SIZES[0];
 
-  return <Link to="/sign-up"></Link>;
+  return <Link to="/sign-up" className="btn-mobile"></Link>;
 };
