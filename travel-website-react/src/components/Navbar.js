@@ -4,6 +4,7 @@ import { Button } from "./Button";
 
 export const Navbar = () => {
   const [click, setClick] = useState(false);
+  const [button, setButton] = useState(false);
 
   const handleClick = () => {
     setClick(!click);
