@@ -19,7 +19,7 @@ export const Button = ({
 
   return (
     <Link to="/sign-up" className="btn-mobile">
-      <button>{children}</button>
+      <button className=`btn ${checkButtonStyles} ${checkButtonSizes}`>{children}</button>
     </Link>
   );
 };
