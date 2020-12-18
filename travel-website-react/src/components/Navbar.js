@@ -13,6 +13,14 @@ export const Navbar = () => {
     setClick(false);
   };
 
+  const showButton = () => {
+    if (window.innerWidth <= 960) {
+      setButton(false);
+    } else {
+      setButton(true);
+    }
+  };
+
   return (
     <>
       <nav className="navbar">
