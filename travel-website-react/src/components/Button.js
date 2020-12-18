@@ -8,4 +8,6 @@ export const Button = ({ childre, type, onclick, buttonStyle, buttonSize }) => {
   const checkButtonStyles = STYLES.includes(buttonStyle)
     ? buttonStyle
     : STYLES[0];
+
+  const checkButtonSizes = SIZES.includes(buttonSize) ? buttonSize : SIZES[0];
 };
